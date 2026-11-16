@@ -1,0 +1,10 @@
+{
+  "name": "Tablytics",
+  "description": "Examine how many rounds a judge has judged on Tabroom, alongside their aff/neg voting percentages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "",
+    "default_icon": ""
+  }
+}
