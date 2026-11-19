@@ -26,4 +26,4 @@ Everything runs locally in your browser. Tablytics doesn't collect, store, or se
 
 ## Disclaimer
 
-This is an independent project hobby project and is not affiliated with Tabroom.com or the National Speech & Debate Association. I am an NSDA alumni and former collegiate competitor who coaches and judges debate competitions regularly.
+This is an independent hobby project and is not affiliated with Tabroom.com or the National Speech & Debate Association. I am an NSDA alumni and former collegiate competitor who coaches and judges debate competitions regularly.
