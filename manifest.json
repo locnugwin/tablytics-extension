@@ -4,7 +4,18 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "",
-    "default_icon": ""
-  }
+    "default_popup": "popup/popup.html",
+    "default_icon": "tablytics_icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.tabroom.com/index/paradigm.mhtml*",
+        "https://tabroom.com/index/paradigm.mhtml*"
+      ],
+      "js": [
+        "scripts/content.js"
+      ]
+    }
+  ]
 }

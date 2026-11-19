@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <!-- show on a tabroom page, particularly on a judge's paradigm -->
+    <div class="card">
+        <div id="stats" hidden>
+        <div class="label">Judge Record</div>
+
+        <div class="headline">
+            <span id="total" class="big"></span>
+            <span class="unit">/rounds</span>
+        </div>
+
+        <ul class="list">
+            <li>
+                <span class="dot dot-aff" aria-hidden="true"></span>
+                <span><strong id="aff-count"></strong> aff ballots</span>
+            </li>
+            <li>
+                <span class="dot dot-neg" aria-hidden="true"></span>
+                <span><strong id="neg-count"></strong> neg ballots</span>
+            </li>
+        </ul>
+
+        <div class="split" role="img" id="split">
+            <span id="bar-aff"></span><span id="bar-neg"></span>
+		</div>
+        </div>
+
+        <!-- hidden message displayed on non-tabroom tabs -->
+        <div id="message" hidden>
+            <div class="label">Tablytics</div>
+            <p>Open Tabroom and view a judge.</p>
+        </div>
+    </div>
+</body>
+</html>
