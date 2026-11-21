@@ -16,6 +16,10 @@ Load the extension in developer mode:
 1. Open a judge's paradigm page on Tabroom.
 2. Click the Tablytics icon.
 
+<div align="center">
+  <img src="assets/demo.png" style="vertical-align: middle;" />
+</div>
+
 *Note: If the page was already open when you installed the extension, reload it first*.
 
 ## How it works
